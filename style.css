@@ -11,7 +11,6 @@
   .data{ 
     display: flex;
     align-items: end;
-    
     height: 40px;
     align-items: center;
     padding-left: 1%;
@@ -28,17 +27,10 @@
     margin-top: 2.5%;
     margin-right: 2.5%;
     font-size: 400%; 
-  }
-  
-  
-  
+  } 
   li a:hover{
     background-color: rgb(20, 240, 229);
-  }
-
-
-
-
+  } 
   .main{
     display: flex;
     justify-content: center;
@@ -214,8 +206,40 @@
   .social-media i:hover{
     box-shadow: 0 0 10px #0cf;
     color: #222;
-    background: #0cf;
-  
+    background: #0cf; 
+  }
+
+  body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 31%, rgba(0,212,255,1) 100%);
+    color: #fff;
   }
   
+  .card{
+    display: flex;
+    flex-direction:column; 
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding:10px ;
+    border: 10px solid #0cf; 
+    margin-bottom: 10px;
+    border-radius: 20%;
+     
+     
+    background-color: #000000;
+  }
+  .projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  h1{
+    text-align: center;
+    font-size: 200%;
+  }
+  .cont {
+    padding: 2px 16px;
+  }
+   
   

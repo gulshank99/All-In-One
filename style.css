@@ -9,12 +9,11 @@
   
   
   .data{ 
-    display: flex;
-    align-items: end;
-    height: 40px;
-    align-items: center;
-    padding-left: 1%;
-    gap: 60px; 
+    display: flex; 
+    flex-direction: row;
+    align-content: center;
+    justify-content:space-between;
+    padding: 1%; 
     background-color: #000000;
     list-style-type: none;  
   }
@@ -224,6 +223,7 @@
     padding:10px ;
     border: 10px solid #0cf; 
     margin-bottom: 10px;
+    margin-top: 10px;
     border-radius: 20%;
      
      
@@ -241,5 +241,3 @@
   .cont {
     padding: 2px 16px;
   }
-   
-  

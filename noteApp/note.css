@@ -13,7 +13,13 @@ body{
     color: rgb(255, 255, 255);
 }
   
-  
+ @media(max-width:900px){
+ #main{
+  display: flex;
+  justify-content: center;
+ }
+ }
+
   .data{ 
     display:flex;
     flex-direction: row;
